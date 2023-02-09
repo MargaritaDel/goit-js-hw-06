@@ -20,7 +20,7 @@ function handleSubmit(event) {
     elements: { email, password },
   } = event.currentTarget;
 
-  if (email.value === "" || password === "") {
+  if (email.value === "" || password.value === "") {
     return alert("Bci поля повинні бути заповнені");
   }
 
